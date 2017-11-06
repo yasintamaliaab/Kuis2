@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="378.0" prefWidth="383.0" style="-fx-background-color: #378900;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kuisnew.FXMLkeduaController">
+   <children>
+      <Label layoutX="133.0" layoutY="14.0" text="Orderan Burger" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="62.0" text="Nama" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="nama2" layoutX="152.0" layoutY="57.0" />
+      <Label layoutX="49.0" layoutY="108.0" text="Total Harga" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="totalh2" layoutX="152.0" layoutY="103.0" />
+   </children>
+</AnchorPane>
